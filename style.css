@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 25px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3b3b3b;
+    display: flex;
+    width: 100%;
+}
+
+.container{
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.recuadro1{
+    border-radius: 10px;
+    border: 1px solid #222222;
+    margin: 0 10px;
+    background-color: rgb(31, 31, 31);
+    -webkit-box-shadow: -1px 6px 33px -11px rgba(0,0,0,0.93);
+-moz-box-shadow: -1px 6px 33px -11px rgba(0,0,0,0.93);
+box-shadow: -1px 6px 33px -11px rgba(0,0,0,0.93);
+}
+
+.recuadro2{
+    border-radius: 10px;
+    border: 1px solid #222222;
+    margin: 0 10px;
+    background-color: rgb(31, 31, 31);
+    -webkit-box-shadow: -1px 6px 33px -11px rgba(0,0,0,0.93);
+-moz-box-shadow: -1px 6px 33px -11px rgba(0,0,0,0.93);
+box-shadow: -1px 6px 33px -11px rgba(0,0,0,0.93);
+}
+
+.recuadro3{
+    border-radius: 10px;
+    border: 1px solid #222222;
+    margin: 0 10px;
+    background-color: rgb(31, 31, 31);
+    -webkit-box-shadow: -1px 6px 33px -11px rgba(0,0,0,0.93);
+-moz-box-shadow: -1px 6px 33px -11px rgba(0,0,0,0.93);
+box-shadow: -1px 6px 33px -11px rgba(0,0,0,0.93);
+}
+
+img{
+    width: 75%;
+    padding-left: 100px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.txt{
+    padding-top: 0px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 20px;
+}
+
+.btn{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #ffb649;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+
+.recuadro1:hover{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    transition: unset;
+}
+.recuadro2:hover{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    transition: unset;
+}
+.recuadro3:hover{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    transition: unset;
+}
